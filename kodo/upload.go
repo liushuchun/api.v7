@@ -3,9 +3,9 @@ package kodo
 import (
 	"io"
 	"net/http"
+	"net/rpc"
 
-	"qiniupkg.com/api.v7/kodocli"
-	"qiniupkg.com/x/rpc.v7"
+	"github.com/liushuchun/api.v7/api.v7/kodocli"
 
 	. "golang.org/x/net/context"
 )

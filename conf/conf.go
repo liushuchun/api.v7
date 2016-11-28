@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"qiniupkg.com/x/ctype.v7"
+	"github.com/qiniu/ctype"
 	"qiniupkg.com/x/rpc.v7"
 )
 
@@ -36,4 +36,3 @@ func init() {
 }
 
 // ----------------------------------------------------------
-

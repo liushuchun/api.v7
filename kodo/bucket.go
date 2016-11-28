@@ -6,9 +6,10 @@ import (
 	"net/url"
 	"strconv"
 
+	"qiniu.io/sf/utils/log"
+
+	"github.com/liushuchun/api.v7/api.v7/api"
 	. "golang.org/x/net/context"
-	"qiniupkg.com/api.v7/api"
-	"qiniupkg.com/x/log.v7"
 )
 
 // ----------------------------------------------------------

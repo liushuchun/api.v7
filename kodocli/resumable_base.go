@@ -1,6 +1,7 @@
 package kodocli
 
 import (
+	"bytes"
 	"encoding/base64"
 	"fmt"
 	"hash/crc32"
@@ -8,7 +9,6 @@ import (
 	"net/http"
 	"strconv"
 
-	"qiniupkg.com/x/bytes.v7"
 	"qiniupkg.com/x/rpc.v7"
 	"qiniupkg.com/x/xlog.v7"
 

@@ -2,11 +2,12 @@ package kodocli
 
 import (
 	"net/http"
+	"net/rpc"
 
-	"qiniupkg.com/api.v7/api"
-	"qiniupkg.com/api.v7/conf"
-	"qiniupkg.com/x/rpc.v7"
-	"qiniupkg.com/x/url.v7"
+	"qbox.us/net/url"
+
+	"github.com/liushuchun/api.v7/api.v7/api"
+	"github.com/liushuchun/api.v7/api.v7/conf"
 )
 
 // ----------------------------------------------------------

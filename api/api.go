@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"qiniupkg.com/x/rpc.v7"
+	"github.com/liushuchun/api.v7/x/rpc.v7"
 
 	"sync"
 
