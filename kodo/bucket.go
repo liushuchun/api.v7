@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
+	"github.com/liushuchun/api.v7/api"
 	. "golang.org/x/net/context"
-	"qiniupkg.com/api.v7/api"
 	"qiniupkg.com/x/log.v7"
 )
 

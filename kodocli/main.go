@@ -3,8 +3,8 @@ package kodocli
 import (
 	"net/http"
 
-	"qiniupkg.com/api.v7/api"
-	"qiniupkg.com/api.v7/conf"
+	"github.com/liushuchun/api.v7/api"
+	"github.com/liushuchun/api.v7/conf"
 	"qiniupkg.com/x/rpc.v7"
 	"qiniupkg.com/x/url.v7"
 )

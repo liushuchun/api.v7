@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"qiniupkg.com/api.v7/kodocli"
+	"github.com/liushuchun/api.v7/kodocli"
 	"qiniupkg.com/x/rpc.v7"
 
 	. "golang.org/x/net/context"
