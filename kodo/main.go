@@ -17,7 +17,7 @@ type zoneConfig struct {
 }
 
 var zones = []zoneConfig{
-	// z0:
+	// z0 华东机房:
 	{
 		IoHost: "http://iovip.qbox.me",
 		UpHosts: []string{
@@ -26,13 +26,29 @@ var zones = []zoneConfig{
 			"-H up.qiniu.com http://183.136.139.16",
 		},
 	},
-	// z1:
+	// z1 华北机房:
 	{
 		IoHost: "http://iovip-z1.qbox.me",
 		UpHosts: []string{
 			"http://up-z1.qiniu.com",
 			"http://upload-z1.qiniu.com",
 			"-H up-z1.qiniu.com http://106.38.227.27",
+		},
+	},
+	// z2 华南机房:
+	{
+		IoHost: "http://iovip-z2.qbox.me",
+		UpHosts: []string{
+			"http://up-z2.qiniu.com",
+			"http://upload-z2.qiniu.com",
+		},
+	},
+	// na0 北美机房:
+	{
+		IoHost: "http://iovip-na0.qbox.me",
+		UpHosts: []string{
+			"http://up-na0.qiniu.com",
+			"http://upload-na0.qiniu.com",
 		},
 	},
 }
